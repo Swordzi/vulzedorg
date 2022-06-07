@@ -9,6 +9,8 @@ function CalendarPage() {
   return (
   <div className='Calendar'>
   <Calendar value={value} onChange={setValue}/>;
+    <Link to={routes.home()}>Home</Link>`
+    <Link to={routes.calendar()}>Calendar</Link>`
   </div>
   );
 }
