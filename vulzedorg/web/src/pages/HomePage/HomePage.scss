@@ -1,0 +1,21 @@
+.Home {
+  background-color: cadetblue;
+
+  .Hello {
+    position: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    background-color: darkmagenta;
+    color: aqua;
+    accent-color: chartreuse;
+  }
+
+  .Hello h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    text-align: center;
+  }
+}
+
