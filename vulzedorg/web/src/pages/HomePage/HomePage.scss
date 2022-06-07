@@ -10,12 +10,14 @@
     background-color: darkmagenta;
     color: aqua;
     accent-color: chartreuse;
+
+    .Hello h1 {
+      font-size: 3rem;
+      font-weight: bolder;
+      text-align: center;
+    }
   }
 
-  .Hello h1 {
-    font-size: 3rem;
-    font-weight: bold;
-    text-align: center;
-  }
+
 }
 

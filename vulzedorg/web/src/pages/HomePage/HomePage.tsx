@@ -1,6 +1,7 @@
 import { Link, routes } from '@redwoodjs/router'
-import { MetaTags } from '@redwoodjs/web'
+import { MetaTags, } from '@redwoodjs/web'
 import { Button } from '@mantine/core';
+
 
 import './HomePage.scss'
 
@@ -16,6 +17,7 @@ const HomePage = () => {
       <p>
         My default route is named <code>home</code>, link to me with `
         <Link to={routes.home()}>Home</Link>`
+        <Link to={routes.calendar()}>Calendar</Link>`
       </p>
     </div>
   )
