@@ -32,6 +32,7 @@
     "dayjs": "^1.11.3",
     "react-spring": "^9.4.5",
     "sass": "^1.52.2",
-    "sass-loader": "^13.0.0"
+    "sass-loader": "^13.0.0",
+    "style-loader": "^3.3.1"
   }
 }
