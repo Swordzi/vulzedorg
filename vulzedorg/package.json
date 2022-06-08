@@ -28,6 +28,7 @@
     "@mantine/form": "^4.2.8",
     "@mantine/hooks": "^4.2.8",
     "@mantine/prism": "^4.2.8",
+    "@react-spring/parallax": "^9.4.5",
     "dayjs": "^1.11.3",
     "react-spring": "^9.4.5",
     "sass": "^1.52.2",
