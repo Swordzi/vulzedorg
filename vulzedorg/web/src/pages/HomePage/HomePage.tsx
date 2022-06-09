@@ -3,7 +3,6 @@ import {MetaTags,} from '@redwoodjs/web'
 import {Group} from '@mantine/core';
 import {useState} from 'react';
 import { useSpring, animated } from 'react-spring'
-import { Parallax, ParallaxLayer } from '@react-spring/parallax'
 
 import './HomePage.scss'
 
@@ -33,7 +32,6 @@ const HomePage = () => {
     <div className='Home'>
       <MetaTags title="Home" description="Home page"/>
 
-      <Group position="center" direction="column">
         <Text></Text>
         <p>
           My default route is named <code>home</code>, link to me with `
@@ -41,7 +39,7 @@ const HomePage = () => {
           <Link to={routes.calendar()}>Calendar</Link>`
           <Link to={routes.showcase()}>Showcase</Link>`
         </p>
-      </Group>
+
 
     </div>
   )

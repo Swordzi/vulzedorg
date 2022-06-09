@@ -13,6 +13,7 @@ interface PageProps {
 const Page = ({ offset, gradient, onClick }: PageProps) => (
   <>
     <ParallaxLayer offset={offset} speed={0.2} onClick={onClick}>
+
       <div className={styles.slopeBegin} />
     </ParallaxLayer>
 
@@ -21,7 +22,7 @@ const Page = ({ offset, gradient, onClick }: PageProps) => (
     </ParallaxLayer>
 
     <ParallaxLayer className={`${styles.text} ${styles.number}`} offset={offset} speed={0.3}>
-      <span>0{offset + 1}</span>
+      <span>Vulzed</span>
     </ParallaxLayer>
   </>
 )
